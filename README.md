@@ -3,27 +3,36 @@
 </p>
 
 ## The Challenge
+
 1. Read about the challenge and register at [#100DaysOfCloud.com](https://100DaysOfCloud.com)
 2. Join the [Discord Channel](https://discord.gg/c6Db8nY)
 3. Copy the [100DaysOfCloud/100DaysOfCloud Journey Template](https://github.com/100DaysOfCloud/100DaysOfCloud/generate)
 4. Use the [Micro](Templates/000-DAY-ARTICLE-MICRO-TEMPLATE.md), [Short](Templates/001-DAY-ARTICLE-SHORT-TEMPLATE.md) or [Long](Templates/002-DAY-ARTICLE-LONG-TEMPLATE.md) Day Journey Template and document your day-to-day progress.
 5. Update your main README to link back to your Day Journey article
-4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
+6. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
+## Florian's Cloud Journey
 
-## [✍️ Your Name]'s Cloud Journey
+I'm a software developper and technical leader, working on Cloud related projects. Currently on my path to become an IT architect, I'm very curious and always happy to learn new skills and topics.
+I'm already AWS Solution Architect certified and looking forward to study for others !
 
-[✍️ Introduce yourself]
+I started this challenge to share my Cloud adventures and prepare my next certifications.
 
-[✍️ Tell us why you started this challenge]
+My goals for this challenge are to:
 
-[✍️ Tell us where you want to be at the end of the challenge]
+* 📚 Pass the AWS Machine learning certification
 
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+* 📚 Pass the AWS Solution Architect Professional certification
+
+* 🚧 Get some practice on some personnal side projects
+
+* 🚀 Share my adventures and help people live some too !
+
+>**DISCLAMER:** I allow myself to skip some days here and there because of personal occupations !
+
+* [Follow me on Twitter @FlolightC](https://twitter.com/FlolightC)
+* [Connect with me on LinkedIn](https://www.linkedin.com/in/florianclanet)
+* [I might also publish some articles on Medium](https://medium.com/@florianclanet)
 
 ## Stepping out the door
 
