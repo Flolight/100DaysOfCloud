@@ -1,52 +1,31 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+![security](./img1.jpg)
+
+# [AWS] Sagemaker #1 - Security
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+I'm really close to the AWS Machine Learning exam and Security is a pretty important topic for machine learning, considering the sensitive data you might deal with and the costly infrastructure you need to manage.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Main resource for this topic is (as often) the [Sagemaker Developper guide](https://docs.aws.amazon.com/sagemaker/latest/dg/security.html).
 
-## Try yourself
+- You should as always encrypt your data at rest:
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+That means using KMS key to encrypt any storage associated to your notebook instances (or any other ML tool: jobs, endpoints...) and S3 buckets.
 
-### Step 1 — Summary of Step
+- Encrypt data in transit:
 
-![Screenshot](https://via.placeholder.com/500x300)
+For inter-container encryption (private VPC) between training instances, be aware it can increase training time especially for deep learning algorithms.
 
-### Step 1 — Summary of Step
+- IAM: noting really new here, just some reminders
 
-![Screenshot](https://via.placeholder.com/500x300)
+Least privilege priciple, roles, policies, access from another account / ouside the organization...
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+- Enable login with Cloutrail
+- Another useful resource: [sagemaker workshops](https://sagemaker-workshop.com/) by [@moviolone](https://twitter.com/moviolone)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[The tweet](https://twitter.com/FlolightC/status/1312385403278757895)
