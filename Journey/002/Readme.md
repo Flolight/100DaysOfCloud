@@ -1,5 +1,5 @@
 
-![security](./img2.jpg)
+![experiment](./img2.jpg)
 
 # [AWS] Sagemaker #2 - Workshops
 
